@@ -21,7 +21,32 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-FindViewTool::Renderer.copyright 'yourname', 'All right reserved'
+TimecopyrightViewTool::Renderer.copyright 'yourname', 'All right reserved'
+```
+
+For example
+inside your `app/controllers/application_controller.rb`
+
+```ruby
+class ApplicationController < ActionController::Base
+
+  before_action :set_copyright
+
+  def set_copyright
+    @copyright = TimecopyrightViewTool::Renderer.copyright 'MyName', 'All right reserved'
+  end
+end
+```
+
+Note: Edit the `MyName` and `All right reserved` to anything of your choice.
+
+Then inside your layout 
+eg. app/views/layouts/application.html.erb
+
+```erb
+<footer>
+  <p><%= @copyright %></p>
+</footer>
 ```
 
 ## Development
