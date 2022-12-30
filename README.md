@@ -1,8 +1,6 @@
 # TimecopyrightViewTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/timecopyright_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+> Welcome to the TimecopyrightViewTool gem! This gem is designed to help you display the current year and a copyright statement in your Ruby on Rails views. It provides a simple and convenient way to keep your views up to date with the current year, as well as to display a copyright notice for your application. With just a few lines of code, you can easily integrate this gem into your application and start using it right away. Whether you're building a new application or updating an existing one, TimecopyrightViewTool is a useful tool to have in your toolkit.
 
 ## Installation
 
