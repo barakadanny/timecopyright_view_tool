@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-FindViewTool::Renderer.copyright 'Baraka Danny', 'All right reserved'
+FindViewTool::Renderer.copyright 'yourname', 'All right reserved'
 ```
 
 ## Development
