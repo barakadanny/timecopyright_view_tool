@@ -41,7 +41,7 @@ end
 Note: Edit the `MyName` and `All right reserved` to anything of your choice.
 
 Then inside your layout 
-eg. app/views/layouts/application.html.erb
+eg. `app/views/layouts/application.html.erb`
 
 ```erb
 <footer>
