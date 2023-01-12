@@ -7,16 +7,13 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'timecopyright_view_tool'
+gem 'timecopyright_view_tool', git: 'https://github.com/barakadanny/timecopyright_view_tool'
 ```
 
 And then execute:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install timecopyright_view_tool
 
 ## Usage
 
